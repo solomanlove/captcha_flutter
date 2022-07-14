@@ -1,0 +1,21 @@
+name: captcha_flutter
+description: 腾讯图形验证码
+version: 0.0.2
+homepage: https://github.com/solomanlove/captcha_flutter.git
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # address:https://pub.dev/packages/webview_flutter 支持android和ios
+  webview_flutter: ^3.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
